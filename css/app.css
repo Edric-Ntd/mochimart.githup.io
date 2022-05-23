@@ -223,9 +223,47 @@ body {
 .item-brand {
   height: 120px;
 }
+/* footer */
 .footer {
   display: block;
-  text-align: center;
+  background-color: #bd0505;
+  color: white;
+}
+.footer .logo{
+  width: 30%;
+}
+.footer .noidung{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.footer-slogan{
+  padding: 30px;
+}
+.footer .slogan{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-cols{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-cols ul li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style: none;
+}
+.footer-cols h3{
+  font-size: 18px;
+}
+.footer-cols ul li a{
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-cols ul li a:hover{
+  text-decoration: underline;
 }
 
 
