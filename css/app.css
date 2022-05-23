@@ -220,5 +220,13 @@ body {
   top: 15px;
   z-index: -1;
 }
+.item-brand {
+  height: 120px;
+}
+.footer {
+  display: block;
+  text-align: center;
+}
+
 
 /*# sourceMappingURL=app.css.map */
