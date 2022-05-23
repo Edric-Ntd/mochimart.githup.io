@@ -270,19 +270,27 @@ body {
   background-color: #989898;
   color: #ffffff;
 }
+.max-width{
+  width: 100%;
+}
 .footer .logo {
-  width: 30%;
+  width: 240px;
 }
 .footer .noidung {
-  width: 40%;
+  text-align: center;
+  width: 30%;
 }
 .footer-slogan {
+  width: 100%;
   padding: 30px;
 }
 .footer a {
   font-size: 14px;
   text-decoration: none;
   color: #fff;
+}
+.info h3{
+  font-size: 18px;
 }
 .footer li {
   list-style: none;
@@ -291,6 +299,7 @@ body {
 /* Mobile */
 @media (max-width: 739px) {
   .footer-slogan_item {
+
     flex-direction: column;
   }
 
