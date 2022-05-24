@@ -266,8 +266,8 @@ body {
   }
 }
 .footer {
+  background-color: #ed1f28;
   display: block;
-  background-color: #989898;
   color: #ffffff;
 }
 .max-width{
@@ -281,8 +281,10 @@ body {
   width: 30%;
 }
 .footer-slogan {
+  background-color: rgb(54, 54, 54);
   width: 100%;
-  padding: 30px;
+  margin-bottom: 15px;
+  padding: 15px;
 }
 .footer a {
   font-size: 14px;
@@ -308,8 +310,6 @@ body {
   }
   .footer-cols {
     flex-direction: column;
-    padding-bottom: 20px;
   }
 }
-
 /*# sourceMappingURL=app.css.map */
